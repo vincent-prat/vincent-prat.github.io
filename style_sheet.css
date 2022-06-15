@@ -1,26 +1,18 @@
-*
-{
+*{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     list-style-type: none;
 }
 
-h1
-{
+h1{
     color: #5087ff;
 }
 
-h2
-{
-
-}
-body
-{
+body{
     background-color: rgb(221, 218, 218);
 }
 
-section
-{
+section{
     background-color: white;
     display: flex;
     justify-content: center;
@@ -32,8 +24,7 @@ section
 .social{
     display: inline;
 }
-.bloc_exp
-{
+.bloc_exp{
     border-bottom: 1px solid black ;
     bottom: 80%;
 }
