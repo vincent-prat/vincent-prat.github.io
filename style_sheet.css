@@ -34,5 +34,6 @@ section
 }
 .bloc_exp
 {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black ;
+    bottom: 80%;
 }
