@@ -153,6 +153,7 @@
   border-radius: 5px;
   padding:20px;
   background: var(--light-bg);
+  max-width: max-content;
 }
 
 .container .information .technos .box-container .box img{
@@ -202,11 +203,11 @@
 }
 
 .container .information .competences .box-container .box:first-child .progress:nth-child(1) .bar span{
-  width: 95%;
+  width: 75%;
 }
 
 .container .information .competences .box-container .box:first-child .progress:nth-child(2) .bar span{
-  width: 80%;
+  width: 70%;
 }
 
 .container .information .competences .box-container .box:first-child .progress:nth-child(3) .bar span{
@@ -214,23 +215,23 @@
 }
 
 .container .information .competences .box-container .box:first-child .progress:nth-child(4) .bar span{
-  width: 70%;
+  width: 80%;
 }
 
 .container .information .competences .box-container .box:last-child .progress:nth-child(1) .bar span{
-  width: 90%;
+  width: 80%;
 }
 
 .container .information .competences .box-container .box:last-child .progress:nth-child(2) .bar span{
-  width: 75%;
+  width: 70%;
 }
 
 .container .information .competences .box-container .box:last-child .progress:nth-child(3) .bar span{
-  width: 65%;
+  width: 70%;
 }
 
 .container .information .competences .box-container .box:last-child .progress:nth-child(4) .bar span{
-  width: 70%;
+  width: 80%;
 }
 
 /* EXPERIENCES */
@@ -365,6 +366,14 @@
     margin-bottom: 15px;
   }
 
+  .technos .box-container{
+    justify-content: space-around;
+  }
+
+  .technos .box-container .box{
+    max-width: min-content;
+  }
+
   .container .information{
     border-radius: 5px;
     box-shadow: var(--box-shadow);
@@ -386,6 +395,7 @@
   .container .information .about p{
     font-size: 12px;
   }
+
 
   .container .information .experience .box-container .box p{
     font-size: 12px;
